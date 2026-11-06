@@ -1,0 +1,26 @@
+{
+  "image_backend": "procedural",
+  "llm_backend": "template",
+  "seed_ablation": [
+    {
+      "seed": "fixed (42)",
+      "subject_colour_sim": 0.91,
+      "adjacent_hist_corr": 0.028,
+      "backend": "procedural"
+    },
+    {
+      "seed": "random",
+      "subject_colour_sim": 0.886,
+      "adjacent_hist_corr": 0.024,
+      "backend": "procedural"
+    }
+  ],
+  "valid_json_rate": {
+    "zero-shot": "0/5",
+    "few-shot": "0/5"
+  },
+  "guardrail": {
+    "passed": 4,
+    "total": 4
+  }
+}

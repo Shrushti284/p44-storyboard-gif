@@ -1,0 +1,12 @@
+gradio>=4.44
+torch
+diffusers
+transformers
+accelerate
+sentence-transformers
+imageio
+imageio-ffmpeg
+opencv-python-headless
+scipy
+pillow
+requests
